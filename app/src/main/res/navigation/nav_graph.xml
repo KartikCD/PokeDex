@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentPokemonList">
+    <fragment
+        android:id="@+id/fragmentPokemonList"
+        android:name="com.kartikcd.myapplication.presentation.fragment.FragmentPokemonList"
+        android:label="fragment_pokemon_list"
+        tools:layout="@layout/fragment_pokemon_list" >
+        <action
+            android:id="@+id/action_fragmentPokemonList_to_fragmentPokemonDetail"
+            app:destination="@id/fragmentPokemonDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPokemonDetail"
+        android:name="com.kartikcd.myapplication.presentation.fragment.FragmentPokemonDetail"
+        android:label="fragment_pokemon_detail"
+        tools:layout="@layout/fragment_pokemon_detail" >
+        <action
+            android:id="@+id/action_fragmentPokemonDetail_to_fragmentPokemonList2"
+            app:destination="@id/fragmentPokemonList" />
+        <argument
+            android:name="POKEMONNAME"
+            app:argType="string" />
+        <argument
+            android:name="POKEMONID"
+            app:argType="string" />
+        <argument
+            android:name="COLORVALUE"
+            app:argType="integer" />
+    </fragment>
+</navigation>

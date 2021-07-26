@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="LightBlue">#FFBAC7FF</color>
+    <color name="LightGrey">#FFAAAAAA</color>
+
+    <color name="HpColor">#F5EB00</color>
+    <color name="AtkColor">#F04F41</color>
+    <color name="DefColor">#686FD1</color>
+    <color name="SpAtkColor">#A65CCE</color>
+    <color name="SpDefColor">#D347AC</color>
+    <color name="SpdColor">#42A54D</color>
+
+    <color name="TypeNormal">#FFA8A77A</color>
+    <color name="TypeFire">#FFEE8130</color>
+    <color name="TypeWater">#FF6390F0</color>
+    <color name="TypeElectric">#FFF7D02C</color>
+    <color name="TypeGrass">#FF7AC74C</color>
+    <color name="TypeIce">#FF96D9D6</color>
+    <color name="TypeFighting">#FFC22E28</color>
+    <color name="TypePoison">#FFA33EA1</color>
+    <color name="TypeGround">#FFE2BF65</color>
+    <color name="TypeFlying">#FFA98FF3</color>
+    <color name="TypePsychic">#FFF95587</color>
+    <color name="TypeBug">#FFA6B91A</color>
+    <color name="TypeRock">#FFB6A136</color>
+    <color name="TypeGhost">#FF735797</color>
+    <color name="TypeDragon">#FF6F35FC</color>
+    <color name="TypeDark">#FF705746</color>
+    <color name="TypeSteel">#FFB7B7CE</color>
+    <color name="TypeFairy">#FFD685AD</color>
+
+    <color name="ProgressbarGrey">#B9B7B8</color>
+
+
+</resources>

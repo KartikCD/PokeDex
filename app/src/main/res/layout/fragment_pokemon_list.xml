@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightBlue"
+    tools:context=".presentation.activity.MainActivity">
+
+    <Space
+        android:id="@+id/spcaer"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ImageView
+        android:id="@+id/pokemon_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spcaer"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Pokemon"
+        android:src="@drawable/pokemon_logo" />
+
+    <EditText
+        android:id="@+id/edittext_searchpokemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pokemon_logo"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/circle_edittext"
+        android:hint="Search here..."
+        android:maxLines="1"
+        android:paddingHorizontal="20sp"
+        android:paddingVertical="10sp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/LightGrey"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/recyclerview_pokemonlist"
+        android:layout_below="@id/edittext_searchpokemon"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
